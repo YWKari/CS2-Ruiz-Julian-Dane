@@ -6,3 +6,8 @@
 - Process: Calculates the fare based on the distance, fare rate, and passenger count
 - Output: Fare
 - Does not include input validation
+
+## Ver 2: 
+- Input, Process, and Output remain the same
+- Added input validation
+- Turned the fare calculation into a function
