@@ -1,5 +1,5 @@
 # Travel Fare Calculator
-# Version 2
+# Ver 2.1
 
 def fare(d, r, p):
     return d * r * p
@@ -12,12 +12,23 @@ while True:
     else:
         print("Please input a name")
 
-while True:
-    distance_input = input("Enter distance (km): ")
+while True: 
+    while True:
+        distance_input = input("Enter distance (km): ")
+        
+        if distance_input.isdigit() and float(distance_input) > 0:
+            distance = float(distance_input)
+            break
+        else:
+            print("Please input a distance above zero in km")
     
-    if distance_input.isdigit() and float(distance_input) > 0:
-        distance = float(distance_input)
+    km = input(print("Is your distance in km? (yes/no)"))
+    
+    yes = ["yes", "Yes", "yep", "Yep", "ye", "Ye", "Yea", "yea", "yeah", "Yeah", "y", "Y"]
+    if km.strip() in yes:
         break
+    elif km.strip() == "":
+        print("Please input a distance above zero in km")
     else:
         print("Please input a distance above zero in km")
 
