@@ -12,5 +12,5 @@
 - Added input validation
 - Turned the fare calculation into a function
 
-# Ver 2.1: Km check update (10/21/26)
+### Ver 2.1: Km check update (10/21/26)
 - The program now checks if the distance entered is in km before calculating
