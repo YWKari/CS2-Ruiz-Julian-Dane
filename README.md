@@ -14,3 +14,9 @@
 
 ### Ver 2.1: Km check update (10/21/26)
 - The program now checks if the distance entered is in km before calculating
+
+## Ver 3: Tagalog update (10/21/26)
+- Added a language selector
+- Added input validation for the language selector
+- Added a Tagalog version
+- eh why not i had time
